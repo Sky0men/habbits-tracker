@@ -1,0 +1,212 @@
+body {
+    font-family: "Comfortaa", cursive;
+    margin: 0;
+    background: #f3f6fd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+}
+
+.panel {
+    background-color: white;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.logo {
+    margin-bottom: 48px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu__item {
+    border-radius: 14px;
+    width: 46px;
+    height: 45px;
+    box-shadow: 0 8px 14px 0 rgba(62, 107, 224, 0.12);
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    background: #5051F9;
+}
+
+.menu__item:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.menu__add {
+    width: 46px;
+    height: 45px;
+    border: 1px solid #cad5ff;
+    border-radius: 14px;
+    padding-top: 9px;
+    background: none;
+    cursor: pointer;
+}
+
+.menu__add:hover {
+    background: #ececf9;
+}
+
+.content {
+    min-width: 900px;
+    padding: 45px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: #000;
+    line-height: 33px;
+}
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.progress__text {
+    display: flex;
+    justify-content: space-between;
+    min-width: 235px;
+}
+
+.progress__name {
+    font-weight: 400;
+    font-size: 14px;
+    color: #232360;
+}
+
+.progress__percent {
+    font-weight: 400;
+    font-size: 12px;
+    color: #768396;
+}
+
+.progress__bar {
+    width: 100%;
+    border-radius: 4px;
+    background: #e6e9ed;;
+    height: 5px; 
+    position: relative; 
+}
+
+.progress__cover-bar {
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    border-radius: 4px;
+    background: #5051f9;
+}
+
+.habbit {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.habbit__day {
+    background: #FBFAFF;
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #e7ebfb; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 40px;
+    min-width: 150px;
+}
+
+.habbit__comment {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px 25px;
+}
+
+.habbit__delete {
+    margin-left: auto;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.habbit__delete:hover {
+    background: #ececf9;
+}
+
+input {
+    border: 1px solid #e7ebfb;
+    border-radius: 9px;
+    background: #fff;
+    padding: 12px 20px;
+    font-family: "Comfortaa", cursive;
+    flex: 1;
+}
+
+.habbit__form {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 0px 10px 0 25px;
+    position: relative;
+}
+
+.input_icon {
+    padding-left: 45px;
+}
+
+.input__icon {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+.button {
+    background: #edecfe;
+    border-radius: 9px;
+    border: none;
+    font-size: 13px;
+    line-height: 14px;
+    color: #5051F9;
+    padding: 14px 30px;
+    cursor: pointer;
+    font-family: "Comfortaa", cursive;
+}
+
+.button:hover {
+    background: #d4d2f9;
+}
